@@ -3,36 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Besnik</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Oswald:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:wght@200;300;400;500;600;700;800&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- internal -->
-    <style>
-     .box{
-      border:5px solid #ccc;
-      margin-left:auto ;
-      margin-right:auto ;
-      width: 300px;
-      height: 300px;
-      overflow-y: scroll;
-     }
-  
-    </style>
   </head>
   <body>
-   <div>
-    <!-- về bố cục luồng, vị trí -->
+    <div id="header">
+      <div class="header-container container">
+        <a href="" class="header-logo">
+          <img src="./assets/Logo.png" alt="" />
+        </a>
+        <nav class="header-nav">
+          <a class="header-nav-items">Home</a>
 
+          <a class="header-nav-items">Features</a>
 
-    <!-- Position  -->
-    <!-- 1. Static (mặc định của mọi phần tử) 
-         2. Relative
-         3. Absolute
-         4. Fixed
-         5. Sticky 
-    -->
-    <!-- Vị trí -->
-    <!-- top , right , bottom , left -->
-    <div class="box box1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo vero delectus quisquam optio necessitatibus! Eaque aliquid est quaerat consequatur. Temporibus repellat, qui fugit deserunt consectetur veritatis nesciunt dicta! Distinctio, voluptates?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo vero delectus quisquam optio necessitatibus! Eaque aliquid est quaerat consequatur. Temporibus repellat, qui fugit deserunt consectetur veritatis nesciunt dicta! Distinctio, voluptates?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo vero delectus quisquam optio necessitatibus! Eaque aliquid est quaerat consequatur. Temporibus repellat, qui fugit deserunt consectetur veritatis nesciunt dicta! Distinctio, voluptates?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo vero delectus quisquam optio necessitatibus! Eaque aliquid est quaerat consequatur. Temporibus repellat, qui fugit deserunt consectetur veritatis nesciunt dicta! Distinctio, voluptates?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo vero delectus quisquam optio necessitatibus! Eaque aliquid est quaerat consequatur. Temporibus repellat, qui fugit deserunt consectetur veritatis nesciunt dicta! Distinctio, voluptates?</div>
-  </div>
-  
+          <a class="header-nav-items">Services</a>
+
+          <a class="header-nav-items">Resources</a>
+
+          <a class="header-nav-items">Contact</a>
+        </nav>
+        <div class="header-button-group">
+          <button class="button header-button-signin">sign in</button>
+          <button class="button header-button-signup">sign up</button>
+        </div>
+      </div>
+    </div>
+    <section id="hero">
+     <div class="container">
+        <div class="hero-content">
+          <p class="hero-content-desc">Welcome to Besnik Agency</p>
+          <h1 class="hero-content-title">Discover a place
+            you'll love to live.</h1>
+          <p class="hero-content-desc">Get the best real estate deals first,
+            before they hit the mass market! HOT FORECLOSURE DEALS with one simple search.</p>
+          <button class="hero-content-button button">More About Us</button>
+        </div>
+        <div class="hero-background-image"></div>
+     </div>
+    </section>
   </body>
 </html>
